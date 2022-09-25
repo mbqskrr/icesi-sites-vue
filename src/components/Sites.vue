@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h4>Mis sitios</h4>
+        <!-- <h4>Mis sitios</h4> -->
         <Board />
     </main>
 </template>

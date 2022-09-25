@@ -1,6 +1,6 @@
 <template>
     <header>
-
+        <Header/>
     </header>
     <main>
         <div class="panels">
@@ -13,9 +13,11 @@
 </template>
 <script>
 import Sites from '../components/Sites.vue';
+import Header from '../components/Header.vue'
 export default {
     components: {
-        Sites
+        Sites,
+        Header
     }
 }
 </script>

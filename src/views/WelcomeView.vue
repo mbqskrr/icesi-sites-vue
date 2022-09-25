@@ -1,9 +1,11 @@
 <template>
     <header>
-        <article class="title">
+        <!-- <article class="title">
             <h1 id="site-name">Icesi Sites</h1>
-        </article>
+        </article> -->
+        <Header />
     </header>
+    <h1 id="site-name">Icesi Sites</h1>
     <aside>
         <img alt="Foodies" class="logo" src="../assets/family.jpg" />
     </aside>
@@ -12,11 +14,11 @@
             <p>“El lugar favorito de los foodies.”</p>
         </article>
 
-        <div class="buttons">
+        <!-- <div class="buttons">
             <router-link to="/Icesi-Sites" class-active="">
                 <button>Empezar</button>
             </router-link>
-        </div>
+        </div> -->
         <footer>
 
         </footer>
@@ -24,7 +26,13 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue';
 export default {
+    components: {
+        Header
+    }
+
+
 }
 </script>
 
@@ -83,7 +91,7 @@ button {
     height: 39px;
     border-radius: 10px;
     background-color: #1b0404;
-    
+
 }
 
 @media (min-width: 1024px) {
