@@ -81,7 +81,7 @@ p {
     line-height: 411px;
 }*/
 
-button {
+/*button {
     margin: 10px;
     font-family: Cardo;
     font-size: 22px;
@@ -92,7 +92,7 @@ button {
     border-radius: 10px;
     background-color: #1b0404;
 
-}
+}*/
 
 @media (min-width: 1024px) {
     aside .logo {

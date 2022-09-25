@@ -7,7 +7,7 @@
             <a href="#about">About</a> -->
             <RouterLink to="/">Welcome</RouterLink>
             <RouterLink to="/Icesi-Sites">Sites</RouterLink>
-            <!-- <RouterLink to="/Add-Site">Add Site</RouterLink> -->
+            <RouterLink to="/Add-Site">Add Site</RouterLink>
         </div>
         <!-- <nav>
             <RouterLink to="/">Welcome</RouterLink>
