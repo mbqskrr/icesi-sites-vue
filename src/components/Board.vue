@@ -4,11 +4,13 @@
             <li v-for="site in sites" :key="site.name">
                 <div class="board">
                     <div class="board-image">
-                        <img :src="site.image" :alt="site.name">
+                        <router-link :to="`/site/${site.name}`">
+                            <img :src="site.image" :alt="site.name">
+                        </router-link>
+                        
                     </div>
                     <div class="board-content">
                         <h3>{{site.name}}</h3>
-                        <p>{{site.price}}</p>
                     </div>
                 </div>
             </li>
@@ -85,7 +87,7 @@ ul>li {
     margin-top: 16px;
 }
 
-.board .board-content p {
+/* .board .board-content p {
     color: #7C8486;
     font-family: 'Avenir LT Std', sans-serif;
     font-size: 14px;
@@ -93,7 +95,7 @@ ul>li {
     margin: 8px 0 22px;
     bottom: 8px;
     text-align: justify;
-}
+} */
 
 @media (min-width: 1024px) {
     body {
