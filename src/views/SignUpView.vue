@@ -45,7 +45,7 @@ export default {
             <input type="password" name="password" id="password" v-model="password">
             <br>
             <label for="cpassword">Confirm Password:</label>
-            <input type="password" name="cpassword" id="cpassword" v-model="confirmPassword">
+            <input type="password" name="cpassword" id="cpassword" v-model="confirmPassword"><br>
             <button @click="newUser">Crear cuenta</button>
         </form>
     </main>
