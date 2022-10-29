@@ -21,7 +21,10 @@ export default {
     computed: {
         ...mapStores(useAuthenticationStore)
     },
-    components: { Header }
+    components: { Header },
+    /*mounted:{
+
+    }*/
 }
 </script>
 
