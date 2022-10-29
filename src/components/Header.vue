@@ -6,6 +6,7 @@
             <RouterLink to="/Icesi-Sites">Sites</RouterLink>
             <RouterLink to="/Add-Site">Add Site</RouterLink>
             <RouterLink to="sign-in">Sign In</RouterLink>
+            <RouterLink to="sign-up">Sign Up</RouterLink>
         </div>
         
     </header>
