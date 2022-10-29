@@ -2,7 +2,8 @@ import { defineStore } from "pinia";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase/config";
 
-export const useSiteStore = defineStore("sites", {
+
+export const useAuthenticationStore = defineStore("authentication", {
     state: () => ({
 
     }),
