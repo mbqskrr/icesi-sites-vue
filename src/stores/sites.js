@@ -34,7 +34,7 @@ export const useSiteStore = defineStore("sites", {
             this.localStorageSites = JSON.parse(localStorage.getItem('sites'))
         },
         getSiteById(id) {
-            const filteredSites = this.sites.filter((site) => id.toLowerCase() == site.name.toLowerCase());
+            const filteredSites = this.sites.filter((site) => id.toLowerCase() === site.name.toLowerCase());
             return filteredSites ? {...filteredSites[0]} : null
         },
     },
