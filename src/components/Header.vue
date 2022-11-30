@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        
+
         <div class="header-right">
             <RouterLink to="/">Welcome</RouterLink>
             <RouterLink to="/Icesi-Sites">Sites</RouterLink>
@@ -8,11 +8,17 @@
             <RouterLink to="sign-in">Sign In</RouterLink>
             <RouterLink to="sign-up">Sign Up</RouterLink>
         </div>
-        
+
     </header>
 </template>
-<script>
 
+<script>
+export default {
+    props: {
+        numberLinks: String,
+        color: String
+    }
+}
 </script>
 <style>
 .header {
@@ -65,6 +71,4 @@
         float: none;
     }
 }
-
-
 </style>

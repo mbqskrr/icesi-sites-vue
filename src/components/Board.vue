@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <ul>
-            <li v-for="site in sites" :key="site.name">
+            <li v-for="site in sites" :key="site.name" :to="`/site/${site.name}`">
                 <div class="board">
                     <div class="board-image">
                         <router-link :to="`/site/${site.name}`">

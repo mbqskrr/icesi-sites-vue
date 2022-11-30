@@ -19,6 +19,9 @@ export default {
         return {
 
         }
+    },
+    props: {
+        numberSites: String
     }
 }
 </script>
