@@ -9,8 +9,8 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "firebase": "^9.13.0",
-    "firebase-tools": "^11.16.1",
+    "firebase": "^9.15.0",
+    "firebase-tools": "^11.30.0",
     "happy-dom": "^7.7.0",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
